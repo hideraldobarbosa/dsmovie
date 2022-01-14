@@ -1,7 +1,5 @@
 package com.devsuperior.dsmovie.dto;
 
-import com.devsuperior.dsmovie.entities.Score;
-
 public class ScoreDTO {
 
 	
@@ -36,7 +34,6 @@ public class ScoreDTO {
 	public ScoreDTO() {
 		
 	}
-	
-	
+
 
 }
