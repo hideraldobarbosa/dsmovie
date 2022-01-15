@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import './styles.css';
 import {Movie} from 'types/movie';
-import { useCallback, useEffect, useState } from 'react';
+import {useEffect, useState } from 'react';
 import axios, { AxiosRequestConfig } from 'axios';
 import { BASE_URL } from 'utils/request';
 import { validateEmail } from 'utils/validate';
